@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-fira-code: "Fira Code", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background-color: #282c33;
+  color: #abb2bf;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+::selection {
+  background-color: #c778dd;
+  color: #ffffff;
+}
+
+/* Thin custom scrollbar to match the terminal aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #282c33;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3f4b;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c778dd;
+}
+
+@layer components {
+  .container-px {
+    @apply mx-auto w-full max-w-content px-6 sm:px-8 lg:px-10;
+  }
+
+  /* Bordered outline button used throughout the design */
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border border-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent/20;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 border border-white/60 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10;
+  }
+}
+
+/* Decorative dotted grid (the dots pattern in the design) */
+.dots-grid {
+  background-image: radial-gradient(#abb2bf 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+}
