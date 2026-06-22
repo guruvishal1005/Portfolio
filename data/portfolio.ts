@@ -22,9 +22,9 @@ export const quote = {
 };
 
 export const aboutParagraphs = [
-  "I am a Software Engineer and Cybersecurity enthusiast passionate about building scalable software systems, intelligent AI applications, and innovative security solutions.",
-  "My experience spans full-stack web development, AI agents, machine learning, blockchain technologies, threat intelligence, and enterprise software architecture. I have led engineering teams, designed production-ready applications, implemented CI/CD pipelines, and developed solutions across healthcare, cybersecurity, and decentralized finance domains.",
-  "Beyond development, I actively participate in hackathons, cybersecurity research, and competitive programming, continuously exploring emerging technologies and modern software engineering practices.",
+  "Software Engineer focused on building scalable applications, AI-driven products, and secure digital solutions.",
+  "Skilled in full-stack development, AI, cybersecurity, and modern software engineering.",
+  "Hackathon winner, competitive programmer, and technology enthusiast passionate about solving real-world problems through innovation."
 ];
 
 export const aboutIntro =
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     ],
     featured: true,
     links: [
-      { label: "GitHub", href: "https://github.com/guruvishal1005", variant: "primary" },
+      { label: "GitHub", href: "https://github.com/guruvishal1005/Contexta", variant: "primary" },
     ],
   },
   {
@@ -182,6 +182,17 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
+    title: "Cybersecurity",
+    items: [
+      "Threat Intelligence",
+      "Vulnerability Assessment",
+      "IOC Analysis",
+      "CVE Analysis",
+      "OSINT",
+      "Dark Web Monitoring",
+    ],
+  },
+  {
     title: "Databases",
     items: ["MongoDB", "PostgreSQL"],
   },
@@ -205,17 +216,7 @@ export const skillGroups: SkillGroup[] = [
     title: "Blockchain & Web3",
     items: ["Solidity", "Ethereum", "Smart Contracts", "Hardhat", "IPFS", "ZKP"],
   },
-  {
-    title: "Cybersecurity",
-    items: [
-      "Threat Intelligence",
-      "Vulnerability Assessment",
-      "IOC Analysis",
-      "CVE Analysis",
-      "OSINT",
-      "Dark Web Monitoring",
-    ],
-  },
+  
 ];
 
 export const achievements = [
