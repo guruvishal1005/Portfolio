@@ -7,8 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Emit `path/index.html` so deep links resolve correctly on static hosting.
-  trailingSlash: true,
+  
 };
 
 export default nextConfig;
