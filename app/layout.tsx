@@ -9,7 +9,7 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "Guru Vishal | Software Engineer, AI Engineer & Cybersecurity Researcher",
+  title: "Guru Vishal Portfolio",
   description:
     "Portfolio of Guru Vishal — Software Engineer, AI Engineer, and Cybersecurity Researcher building production-grade software, AI-powered systems, and security solutions.",
   keywords: [

@@ -64,8 +64,8 @@ export default function Footer() {
         </div>
 
         <p className="mt-10 text-center text-sm text-gray">
-          © {new Date().getFullYear()} {profile.name}. Built with Next.js &amp;
-          Tailwind CSS.
+          © {new Date().getFullYear()} {profile.name}. built with Love and
+          coffee.
         </p>
       </div>
     </footer>
